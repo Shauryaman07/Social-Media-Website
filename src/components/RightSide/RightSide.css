@@ -1,0 +1,23 @@
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: auto; 
+    max-height: calc(100vh - 100px); 
+    padding-right: 10px;
+    
+}
+
+.navIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.navIcons > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    
+}
+
